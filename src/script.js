@@ -55,6 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const updateDisplay = (value) => {
-    display.textContent = value;
+    display.value = value;
   };
 });
